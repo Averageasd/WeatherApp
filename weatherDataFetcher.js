@@ -1,6 +1,6 @@
 const apiKey = '1400e48621d01b05cddb115aaf6ead98';
 const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?`;
-const coordinateUrl = 'http://api.openweathermap.org/geo/1.0/direct?';
+const coordinateUrl = 'https://api.openweathermap.org/geo/1.0/direct?';
 
 const searchContainer = document.querySelector('.search-container');
 const locationNameContainer = document.querySelector('.location-name-container');
